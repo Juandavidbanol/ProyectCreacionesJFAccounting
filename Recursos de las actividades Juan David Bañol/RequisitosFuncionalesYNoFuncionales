@@ -1,0 +1,61 @@
+REQUISITOS FUNCIONALES Y NO FUNCIONALES
+
+CODIGO	REQUISITOS FUNCIONALES
+RQF001	Nombre	Login de administrador
+	Descripción	El sistema debe permitir que el administrador inicie sesión con usuario y contraseña válidos.
+	Usuarios	Administrador
+
+CODIGO	REQUISITOS FUNCIONALES
+RQF002	Nombre	CRUD de clientes
+	Descripción	El sistema debe permitir crear, editar, listar y eliminar clientes.
+	Usuarios	Administrador
+
+CODIGO	REQUISITOS FUNCIONALES
+RQF003	Nombre	Registro de ingresos
+	Descripción	El sistema debe permitir registrar ingresos con fecha, cliente, categoría, descripción y valor.
+	Usuarios	Administrador
+
+
+CODIGO	REQUISITOS FUNCIONALES
+RQF004	Nombre	Registro de gastos
+	Descripción	El sistema debe permitir registrar gastos con fecha, descripción y valor.
+	Usuarios	Administrador
+
+CODIGO	REQUISITOS FUNCIONALES
+RQF005	Nombre	Reportes Filtrables
+	Descripción	El sistema debe mostrar ingresos y gastos en tablas, filtrados por cliente, categoría, tipo de registro y rango de fechas.
+	Usuarios	Administrador
+
+CODIGO	REQUISITOS FUNCIONALES
+RQF006	Nombre	Gráfico histórico
+	Descripción	El sistema debe mostrar un gráfico mensual de ingresos vs gastos.
+	Usuarios	Administrador
+
+10.5.	Requerimientos no Funcionales
+Tabla 4.-Requerimientos No Funcionales
+CODIGO	REQUISITOS NO FUNCIONALES
+RQNF001	Nombre	Seguridad
+	Descripción	El sistema debe manejar la autenticación mediante credenciales seguras (JWT o sesiones).
+	Categoría	Administrador / Sistema
+
+CODIGO	REQUISITOS NO FUNCIONALES
+RQNF002	Nombre	Usabilidad
+	Descripción	La interfaz debe ser sencilla e intuitiva, permitiendo que cualquier usuario pueda registrar datos sin capacitación avanzada.
+	Categoría	Administrador
+
+
+
+CODIGO	REQUISITOS NO FUNCIONALES
+RQNF003	Nombre	Rendimiento
+	Descripción	El sistema debe cargar reportes en menos de 3 segundos para menos de 1000 registros
+	Categoría	Administrador
+
+CODIGO	REQUISITOS NO FUNCIONALES
+RQNF004	Nombre	Escalabilidad
+	Descripción	El sistema debe permitir agregar más usuarios o registros sin afectar el rendimiento.
+	Categoría	Administrador
+
+CODIGO	REQUISITOS NO FUNCIONALES
+RQNF005	Nombre	Portabilidad
+	Descripción	El sistema debe poder ejecutarse tanto en un servidor local como en la nube.
+	Categoría	Administrador
